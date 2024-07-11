@@ -48,6 +48,7 @@ Old coverage result: ![coverage_report_1](https://github.com/ionm28/Assignment1/
 
 New coverage result: ![coverage_report_2](https://github.com/ionm28/Assignment1/assets/113595239/f97577cb-d669-48c8-879a-f055c829b53e)
 
+Presentation: [Assignment 1 - resit.pptx](https://github.com/user-attachments/files/16177946/Assignment.1.-.resit.pptx)
 
 
 
