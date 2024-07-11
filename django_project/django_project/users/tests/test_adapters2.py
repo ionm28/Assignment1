@@ -7,16 +7,15 @@ from django_project.users.adapters import AccountAdapter
 def my_instance():
     return AccountAdapter()
 
-#first function
-def test_is_open_for_signup_when_registration_allowed(my_instance):
+#second function
+def test_is_open_for_signup_registration_allowed(my_instance):
     settings.ACCOUNT_ALLOW_REGISTRATION = True
     request = HttpRequest()
     result = my_instance.is_open_for_signup(request)
     assert result is True
 
-def test_is_open_for_signup_when_registration_not_allowed(my_instance):
+def test_is_open_for_signup_registration_not_allowed(my_instance):
     settings.ACCOUNT_ALLOW_REGISTRATION = False
     request = HttpRequest()
     result = my_instance.is_open_for_signup(request)
     assert result is False
-    
